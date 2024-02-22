@@ -1,0 +1,43 @@
+body {
+  background-color: #262626;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+label {
+  color: #ffffff;
+}
+
+.headerOption {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.headerTweak {
+  position: relative;
+  left: 10px;
+  bottom: 40px;
+}
+
+.logoAdjust {
+  position: relative;
+  left: 20px;
+  bottom: 0px;
+}
+
+.indent {
+  position: relative;
+  left: 30px;
+}
+
+.hover {
+  color: #1cdb15f6;
+}
