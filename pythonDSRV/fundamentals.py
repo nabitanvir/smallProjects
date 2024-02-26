@@ -62,6 +62,13 @@ def listTest():
     #newline
     print("")
 
+def lengthTesting():
+    print("lengthTesting test:")
+    array = [1, 2, 3, 4, 5]
+    length = len(array)
+    print(length)
+    print("")
+
 def main():
     #ask for user input
 
@@ -75,6 +82,7 @@ def main():
     placeholderMaster()
     booleanMaster(x, y)
     listTest()
+    lengthTesting()
     
 
 if __name__ == "__main__":
