@@ -59,6 +59,12 @@ def listTest():
     print("new list after insert: " + str(testList))
     testList.append("mango")
     print("new list after append: " + str(testList))
+    [print(x) for x in testList]
+    
+    print("forloop list test")
+    for x in testList:
+        if "m" in x:
+            print(x)
     #newline
     print("")
 
